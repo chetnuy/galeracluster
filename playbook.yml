@@ -1,0 +1,33 @@
+---
+- name: Install global variables for roles
+  hosts: all
+  tasks:
+    - set_fact: org_name='DOD'
+
+- name: Install taskd server
+  hosts: taskd
+  become: True
+  roles:
+    - chetnuy.taskd
+
+- name: Install variables for GG user 
+  hosts: taskd:taskc
+  tasks:
+    - set_fact: user_name='GG'
+    - set_fact: system_user='vagrant'
+      #- set_fact: server='taskc'
+
+- name: Create user on server
+  hosts: taskd
+  become: True 
+  roles:
+    - chetnuy.taskd_gen_user
+
+- name: Install client on user
+  hosts: taskc
+  become: True 
+  roles:
+    - chetnuy.taskc
+
+## TODO: find how to make loop for generate and install certify
+## Now you just simply reuse install user block
