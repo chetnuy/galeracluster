@@ -15,7 +15,7 @@ EOF
 # set conf repository
 sed -i 's/us.archive.ubuntu.com/mirror.yandex.ru/g' /etc/apt/sources.list
 sed -i 's/security.ubuntu.com/mirror.yandex.ru/g' /etc/apt/sources.list
-apt-get update
+#apt-get update
 
 SCRIPT
 

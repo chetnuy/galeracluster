@@ -1,0 +1,17 @@
+---
+- hosts: node
+  tasks:
+  - name: Configure iptables for vagrant multi-network cluster
+    become: True
+    iptables:
+      table: nat
+      chain: POSTROUTING
+      jump: MASQUERADE
+  
+  - name: Start vagrant instance
+    command: vagrant up sql4
+    environment:
+      VAGRANT_HOME: /mnt/image/vagrant
+      VAGRANT_CWD: /mnt/box/vagrant/galeracluster/node/orca
+
+

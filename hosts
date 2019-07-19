@@ -1,0 +1,17 @@
+[node]
+me ansible_host=192.168.1.65 ansible_ssh_user=ash
+orca ansible_host=192.168.1.69 ansible_ssh_user=ash ansible_ssh_private_key_file=''
+
+[vm]
+sql1 ansible_host=192.168.122.11 
+sql2 ansible_host=192.168.122.12
+sql3 ansible_host=192.168.122.13 
+sql4 ansible_host=192.168.123.14 
+
+
+[node:vars]
+ansible_python_interpreter = /usr/bin/python3
+
+[all:vars]
+#ansible_python_interpreter = /usr/bin/python2
+
