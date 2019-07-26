@@ -7,5 +7,7 @@ before_install:
   - sudo apt-get -qq update
 install:
   - pip install molecule python-vagrant
+before_script: 
+  - cd nmapp 
 script:
   - molecule test -s docker
