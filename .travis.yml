@@ -6,7 +6,7 @@ services:
 before_install:
   - sudo apt-get -qq update
 install:
-  - pip install molecule python-vagrant
+  - pip install molecule docker tox-travis ansible testinfra
 before_script: 
   - cd nmapp 
 script:
