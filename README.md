@@ -15,3 +15,5 @@ ssh me 'sudo route add -net 192.168.123.0/24 gw 192.168.1.65'
 iptables -A POSTROUTING -t nat -j MASQUERADE
 
 ```
+
+add travis
