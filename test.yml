@@ -1,0 +1,9 @@
+---
+- hosts: vm
+  tasks:
+  - name: Install vim
+    become: True
+    apt:
+      name: nmap
+      state: present
+      update_cache: yes

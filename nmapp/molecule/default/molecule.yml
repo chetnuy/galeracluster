@@ -4,14 +4,18 @@ dependency:
 driver:
   name: vagrant
   provider:
-    name: virtualbox
+    name: libvirt
 lint:
   name: yamllint
 platforms:
   - name: instance
-    box: ubuntu/xenial64
+    box: generic/ubuntu1804
 provisioner:
   name: ansible
+  config_options:
+    ssh_connection:
+      ssh_args: -C -o ControlMaster=auto -o ControlPersist=60s
+      control_path: /dev/shm/cp%%h-%%p-%%r
   lint:
     name: ansible-lint
 verifier:

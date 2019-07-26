@@ -1,0 +1,849 @@
+versions pytest-5.0.1, py-1.8.0, python-3.6.5.final.0
+cwd=/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default
+args=['--connection=ansible', '--ansible-inventory=/tmp/molecule/nmapp/default/inventory/ansible_inventory.yml', '-p', 'no:cacheprovider', '--debug', '/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py', '-vvv']
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+    pytest_plugin_registered [hook]
+        plugin: <Session default exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+    early skip of rewriting module: faulthandler [assertion]
+    early skip of rewriting module: py._io [assertion]
+    early skip of rewriting module: py._io.terminalwriter [assertion]
+    early skip of rewriting module: unicodedata [assertion]
+    early skip of rewriting module: py._builtin [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'testinfra.plugin' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended'> err=<FDCapture 2 oldfd=7 _state='suspended'> in_=<FDCapture 0 oldfd=4 _state='started'> _state='suspended' _in_suspended='<UNSET>'> _current_item=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f43e2ee3940>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f43e2ed2eb8>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'testinfra.plugin' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended'> err=<FDCapture 2 oldfd=7 _state='suspended'> in_=<FDCapture 0 oldfd=4 _state='started'> _state='suspended' _in_suspended='<UNSET>'> _current_item=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f43e2ee3940>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f43e2ed2eb8>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f43e2ee7c18>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f43e68349b0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          startdir: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default
+      finish pytest_report_header --> [['rootdir: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default', 'plugins: testinfra-3.0.5'], ['using: pytest-5.0.1 pylib-1.8.0', 'setuptools registered plugins:', '  testinfra-3.0.5 at /mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py [collection]
+            pytest_collect_file [hook]
+                path: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py
+                parent: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py
+                  parent: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module tests/test_default.py> [hook]
+            finish pytest_collect_file --> [<Module tests/test_default.py>] [hook]
+          matchnodes [<Module tests/test_default.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/test_default.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/test_default.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/test_default.py>
+      find_module called for: test_default [assertion]
+      matched test file (was specified on cmdline): '/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py' [assertion]
+      found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py' [assertion]
+      matched marked file 'testinfra.utils' (from 'testinfra') [assertion]
+      find_module called for: testinfra.utils [assertion]
+      found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/utils/__init__.py' [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      matched marked file 'testinfra.utils.ansible_runner' (from 'testinfra') [assertion]
+      find_module called for: testinfra.utils.ansible_runner [assertion]
+      found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/utils/ansible_runner.py' [assertion]
+      early skip of rewriting module: json [assertion]
+      early skip of rewriting module: json.decoder [assertion]
+      early skip of rewriting module: json.scanner [assertion]
+      early skip of rewriting module: _json [assertion]
+      early skip of rewriting module: json.encoder [assertion]
+      matched marked file 'testinfra.backend.local' (from 'testinfra') [assertion]
+      find_module called for: testinfra.backend.local [assertion]
+      found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/backend/local.py' [assertion]
+      matched marked file 'testinfra.backend.base' (from 'testinfra') [assertion]
+      find_module called for: testinfra.backend.base [assertion]
+      found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/backend/base.py' [assertion]
+      early skip of rewriting module: pipes [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __name__
+            obj: test_default
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __doc__
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __package__
+            obj: 
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __loader__
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f43e2f0ceb8>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __spec__
+            obj: ModuleSpec(name='test_default', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x7f43e2f0ceb8>, origin='/mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py')
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __file__
+            obj: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/test_default.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __cached__
+            obj: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default/tests/__pycache__/test_default.cpython-36.pyc
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __builtins__
+            obj: {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'BufferError': <class 'BufferError'>, 'MemoryError': <class 'MemoryError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2018 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: os
+            obj: <module 'os' from '/usr/lib/python-exec/python3.6/../../../lib64/python3.6/os.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: testinfra
+            obj: <module 'testinfra' from '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: testinfra_hosts
+            obj: ['instance']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: test_hosts_file
+            obj: <function test_hosts_file at 0x7f43e47a9598>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f43e2b7e438>
+          matched marked file 'testinfra.backend.ansible' (from 'testinfra') [assertion]
+          find_module called for: testinfra.backend.ansible [assertion]
+          found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/backend/ansible.py' [assertion]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_hosts_file[ansible://instance]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x7f43e78dd980>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __dir__
+            obj: <method '__dir__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __dict__
+            obj: <member '__dict__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_default.py>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_default.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_hosts_file[ansible://instance]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_hosts_file[ansible://instance]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_default.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          items: [<Function test_hosts_file[ansible://instance]>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+            startdir: /mnt/data/box/vagrant/galeracluster/nmapp/molecule/default
+            items: [<Function test_hosts_file[ansible://instance]>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function test_hosts_file[ansible://instance]>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session default exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
+      pytest_runtest_protocol [hook]
+          item: <Function test_hosts_file[ansible://instance]>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_default.py::test_hosts_file[ansible://instance]
+            location: ('tests/test_default.py', 8, 'test_hosts_file[ansible://instance]')
+        early skip of rewriting module: py._io.capture [assertion]
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_testinfra_host' scope='module' baseid=''>
+              request: <SubRequest '_testinfra_host' for <Function test_hosts_file[ansible://instance]>>
+          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f43e2b7ea90> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='host' scope='module' baseid=''>
+              request: <SubRequest 'host' for <Function test_hosts_file[ansible://instance]>>
+          finish pytest_fixture_setup --> <testinfra.host.Host object at 0x7f43e2b7ea90> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_hosts_file[ansible://instance]>
+          matched marked file 'testinfra.modules.file' (from 'testinfra') [assertion]
+          find_module called for: testinfra.modules.file [assertion]
+          found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/modules/file.py' [assertion]
+          matched marked file 'testinfra.modules.base' (from 'testinfra') [assertion]
+          find_module called for: testinfra.modules.base [assertion]
+          found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/modules/base.py' [assertion]
+          matched marked file 'testinfra.modules.systeminfo' (from 'testinfra') [assertion]
+          find_module called for: testinfra.modules.systeminfo [assertion]
+          found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/modules/systeminfo.py' [assertion]
+          matched marked file 'testinfra.backend.paramiko' (from 'testinfra') [assertion]
+          find_module called for: testinfra.backend.paramiko [assertion]
+          found cached rewritten pyc for '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/testinfra/backend/paramiko.py' [assertion]
+          early skip of rewriting module: paramiko [assertion]
+          early skip of rewriting module: paramiko._version [assertion]
+          early skip of rewriting module: paramiko.transport [assertion]
+          early skip of rewriting module: cryptography [assertion]
+          early skip of rewriting module: cryptography.__about__ [assertion]
+          early skip of rewriting module: cryptography.hazmat [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.ciphers [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.ciphers.base [assertion]
+          early skip of rewriting module: cryptography.utils [assertion]
+          early skip of rewriting module: cryptography.exceptions [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.interfaces [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.ciphers.modes [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.ciphers.algorithms [assertion]
+          early skip of rewriting module: paramiko.util [assertion]
+          early skip of rewriting module: paramiko.common [assertion]
+          early skip of rewriting module: paramiko.py3compat [assertion]
+          early skip of rewriting module: paramiko.config [assertion]
+          early skip of rewriting module: paramiko.auth_handler [assertion]
+          early skip of rewriting module: paramiko.message [assertion]
+          early skip of rewriting module: paramiko.ssh_exception [assertion]
+          early skip of rewriting module: paramiko.server [assertion]
+          early skip of rewriting module: paramiko.ssh_gss [assertion]
+          early skip of rewriting module: gssapi [assertion]
+          early skip of rewriting module: pywintypes [assertion]
+          early skip of rewriting module: paramiko.channel [assertion]
+          early skip of rewriting module: paramiko.file [assertion]
+          early skip of rewriting module: paramiko.buffered_pipe [assertion]
+          early skip of rewriting module: array [assertion]
+          early skip of rewriting module: paramiko.pipe [assertion]
+          early skip of rewriting module: paramiko.compress [assertion]
+          early skip of rewriting module: paramiko.dsskey [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.hashes [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.serialization [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.serialization.base [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.serialization.ssh [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.dsa [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ec [assertion]
+          early skip of rewriting module: cryptography.hazmat._oid [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ed25519 [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.rsa [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.utils [assertion]
+          early skip of rewriting module: asn1crypto [assertion]
+          early skip of rewriting module: asn1crypto.version [assertion]
+          early skip of rewriting module: asn1crypto.algos [assertion]
+          early skip of rewriting module: asn1crypto._errors [assertion]
+          early skip of rewriting module: asn1crypto._int [assertion]
+          early skip of rewriting module: asn1crypto.util [assertion]
+          early skip of rewriting module: asn1crypto._iri [assertion]
+          early skip of rewriting module: encodings.idna [assertion]
+          early skip of rewriting module: stringprep [assertion]
+          early skip of rewriting module: asn1crypto._types [assertion]
+          early skip of rewriting module: asn1crypto._ordereddict [assertion]
+          early skip of rewriting module: asn1crypto._ffi [assertion]
+          early skip of rewriting module: asn1crypto._perf [assertion]
+          early skip of rewriting module: asn1crypto._perf._big_num_ctypes [assertion]
+          early skip of rewriting module: asn1crypto.core [assertion]
+          early skip of rewriting module: asn1crypto._teletex_codec [assertion]
+          early skip of rewriting module: asn1crypto.parser [assertion]
+          early skip of rewriting module: paramiko.ber [assertion]
+          early skip of rewriting module: paramiko.pkey [assertion]
+          early skip of rewriting module: paramiko.ed25519key [assertion]
+          early skip of rewriting module: bcrypt [assertion]
+          early skip of rewriting module: bcrypt._bcrypt [assertion]
+          early skip of rewriting module: _cffi_backend [assertion]
+          early skip of rewriting module: bcrypt.__about__ [assertion]
+          early skip of rewriting module: nacl [assertion]
+          early skip of rewriting module: nacl.signing [assertion]
+          early skip of rewriting module: nacl.bindings [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_aead [assertion]
+          early skip of rewriting module: nacl.exceptions [assertion]
+          early skip of rewriting module: nacl._sodium [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_box [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_generichash [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_hash [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_kx [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_pwhash [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_scalarmult [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_secretbox [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_secretstream [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_shorthash [assertion]
+          early skip of rewriting module: nacl.bindings.crypto_sign [assertion]
+          early skip of rewriting module: nacl.bindings.randombytes [assertion]
+          early skip of rewriting module: nacl.bindings.sodium_core [assertion]
+          early skip of rewriting module: nacl.bindings.utils [assertion]
+          early skip of rewriting module: nacl.encoding [assertion]
+          early skip of rewriting module: nacl.public [assertion]
+          early skip of rewriting module: nacl.utils [assertion]
+          early skip of rewriting module: paramiko.kex_curve25519 [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.constant_time [assertion]
+          early skip of rewriting module: hmac [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings._constant_time [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.x25519 [assertion]
+          early skip of rewriting module: paramiko.kex_gex [assertion]
+          early skip of rewriting module: paramiko.kex_group1 [assertion]
+          early skip of rewriting module: paramiko.kex_group14 [assertion]
+          early skip of rewriting module: paramiko.kex_group16 [assertion]
+          early skip of rewriting module: paramiko.kex_ecdh_nist [assertion]
+          early skip of rewriting module: paramiko.kex_gss [assertion]
+          early skip of rewriting module: paramiko.packet [assertion]
+          early skip of rewriting module: paramiko.primes [assertion]
+          early skip of rewriting module: paramiko.rsakey [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.padding [assertion]
+          early skip of rewriting module: paramiko.ecdsakey [assertion]
+          early skip of rewriting module: paramiko.sftp_client [assertion]
+          early skip of rewriting module: paramiko.sftp [assertion]
+          early skip of rewriting module: paramiko.sftp_attr [assertion]
+          early skip of rewriting module: paramiko.sftp_file [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.backend [assertion]
+          early skip of rewriting module: cryptography.x509 [assertion]
+          early skip of rewriting module: cryptography.x509.certificate_transparency [assertion]
+          early skip of rewriting module: cryptography.x509.base [assertion]
+          early skip of rewriting module: cryptography.x509.extensions [assertion]
+          early skip of rewriting module: asn1crypto.keys [assertion]
+          early skip of rewriting module: asn1crypto._elliptic_curve [assertion]
+          early skip of rewriting module: cryptography.x509.general_name [assertion]
+          early skip of rewriting module: cryptography.x509.name [assertion]
+          early skip of rewriting module: cryptography.x509.oid [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.aead [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.ciphers [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.cmac [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.decode_asn1 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.dh [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.dh [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.dsa [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.utils [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.ec [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.ed25519 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.ed448 [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ed448 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.encode_asn1 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.hashes [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.hmac [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.ocsp [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.x509 [assertion]
+          early skip of rewriting module: cryptography.x509.ocsp [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.poly1305 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.rsa [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.x25519 [assertion]
+          early skip of rewriting module: cryptography.hazmat.backends.openssl.x448 [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.x448 [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings.openssl [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings.openssl.binding [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings._openssl [assertion]
+          early skip of rewriting module: cryptography.hazmat.bindings.openssl._conditional [assertion]
+          early skip of rewriting module: _ssl [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.kdf [assertion]
+          early skip of rewriting module: cryptography.hazmat.primitives.kdf.scrypt [assertion]
+          early skip of rewriting module: paramiko.client [assertion]
+          early skip of rewriting module: getpass [assertion]
+          early skip of rewriting module: termios [assertion]
+          early skip of rewriting module: paramiko.agent [assertion]
+          early skip of rewriting module: paramiko.hostkeys [assertion]
+          early skip of rewriting module: paramiko.sftp_server [assertion]
+          early skip of rewriting module: paramiko.sftp_si [assertion]
+          early skip of rewriting module: paramiko.sftp_handle [assertion]
+          early skip of rewriting module: paramiko.proxy [assertion]
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='host' scope='module' baseid=''>
+              request: <SubRequest 'host' for <Function test_hosts_file[ansible://instance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='host' scope='module' baseid=''>
+              request: <SubRequest 'host' for <Function test_hosts_file[ansible://instance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_testinfra_host' scope='module' baseid=''>
+              request: <SubRequest '_testinfra_host' for <Function test_hosts_file[ansible://instance]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_hosts_file[ansible://instance]>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_default.py::test_hosts_file[ansible://instance]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_default.py::test_hosts_file[ansible://instance]
+            location: ('tests/test_default.py', 8, 'test_hosts_file[ansible://instance]')
+        finish pytest_runtest_logfinish --> [] [hook]
+        pytest_warning_captured [hook]
+            warning_message: {message : UserWarning("Unknown ssh-ed25519 host key for 192.168.122.92: b'a5aca831efeb31bb5926ae3906a555ab'",), category : 'UserWarning', filename : '/mnt/data/box/vagrant/galeracluster/env/lib64/python3.6/site-packages/paramiko/client.py', lineno : 837, line : None}
+            when: runtest
+            item: <Function test_hosts_file[ansible://instance]>
+        finish pytest_warning_captured --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session default exitstatus=0 testsfailed=0 testscollected=1>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f43e2ee3940>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x7f43e2faa2b0>
+    finish pytest_unconfigure --> [] [hook]

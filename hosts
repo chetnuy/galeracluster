@@ -4,11 +4,11 @@ orca ansible_host=192.168.1.60 ansible_ssh_user=ash ansible_ssh_private_key_file
 
 [vm]
 sql1 ansible_host=192.168.122.11 
-sql2 ansible_host=192.168.122.12
-sql3 ansible_host=192.168.122.13 
-sql4 ansible_host=192.168.123.14 
-sql4 ansible_host=192.168.123.15 
-
+#sql2 ansible_host=192.168.122.12
+#sql3 ansible_host=192.168.122.13 
+#sql4 ansible_host=192.168.123.14 
+#sql4 ansible_host=192.168.123.15 
+#
 
 [node:vars]
 ansible_python_interpreter = /usr/bin/python3

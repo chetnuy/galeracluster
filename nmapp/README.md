@@ -34,7 +34,7 @@ passed in as parameters) is always nice for users too:
 
     - hosts: servers
       roles:
-         - { role: molecule, x: 42 }
+         - { role: nmapp, x: 42 }
 
 License
 -------
