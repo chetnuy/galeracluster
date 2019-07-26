@@ -1,3 +1,6 @@
+### Status
+[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+
 ### galeracluster
 
 # Meta:  
@@ -17,3 +20,4 @@ iptables -A POSTROUTING -t nat -j MASQUERADE
 ```
 
 add travis
+
