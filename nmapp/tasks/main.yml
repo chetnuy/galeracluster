@@ -5,3 +5,4 @@
     name: nmap
     state: present
     update_cache: yes
+  no_log: False
