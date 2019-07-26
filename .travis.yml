@@ -10,4 +10,4 @@ install:
 before_script: 
   - cd nmapp 
 script:
-  - molecule test -s docker
+  - molecule --debug test -s docker
